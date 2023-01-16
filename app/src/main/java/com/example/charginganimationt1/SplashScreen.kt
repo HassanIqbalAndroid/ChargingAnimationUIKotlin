@@ -31,7 +31,7 @@ class SplashScreen : AppCompatActivity() {
         }
         Handler(Looper.getMainLooper()).postDelayed({
             redirect(permissionCheck)
-        },5000)
+        },3000)
     }
 
     private fun redirect(name:String){
